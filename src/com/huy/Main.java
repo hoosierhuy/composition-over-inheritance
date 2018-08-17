@@ -11,9 +11,8 @@ public class Main {
 
         Motherboard theMotherboard = new Motherboard("BJ-200", "Apple", 4, 1,"10.13.6");
 
+        // PC in this context means personal computer, it doesn't connotate Microsoft, or Windows, or Bill Gate's evil twin.
         PC iMac = new PC(theCase, iMacMonitor, theMotherboard);
-        iMac.getMonitor().drawPixelAt(2000, 1800, "blue");
-        iMac.getMotherboard().loadProgram("High Sierra");
-        iMac.getTheCase().pressPowerButton();
+        iMac.powerUp();
     }
 }

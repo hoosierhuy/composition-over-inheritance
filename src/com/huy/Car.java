@@ -1,5 +1,6 @@
 package com.huy;
 
+// The classical inheritance pattern
 public class Car extends Vehicle {
     private int doors;
     private int engineCapacity;
